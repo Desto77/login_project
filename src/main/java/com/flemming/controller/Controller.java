@@ -9,7 +9,7 @@ import com.flemming.service.Service;
 @RestController
 @RequestMapping("/api")
 public class Controller implements Service {
-
+ 
 	public String test() {
 		return "test";
 	}
